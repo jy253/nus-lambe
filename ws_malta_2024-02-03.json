@@ -429,7 +429,7 @@
       ]
     },
     {
-      "question": "How fo you feel about the air humidity at the moment?",
+      "question": "How do you feel about the air humidity at the moment?",
       "question_id": "q_comfort_humidity",
       "response_options": [
         {
@@ -596,7 +596,7 @@
     },
     {
       "question": "How much is your clothing covering your skin?",
-      "question_id": "q_general_clothing_cover",
+      "question_id": "q_clothing_cover",
       "response_options": [
         {
           "text": "Not much",
