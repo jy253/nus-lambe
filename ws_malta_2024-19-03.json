@@ -135,7 +135,7 @@
       "question_id": "q_transit_time",
       "response_options": [
         {
-          "text": "10 minutes or less",
+          "text": "10 min or less",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
@@ -143,7 +143,7 @@
           "next_question_id": "q_comfort_change"
         },
         {
-          "text": "About 20 minutes",
+          "text": "About 20 min",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
@@ -151,7 +151,7 @@
           "next_question_id": "q_comfort_change"
         },
         {
-          "text": "About 30 minutes",
+          "text": "About 30 min",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
@@ -159,7 +159,7 @@
           "next_question_id": "q_comfort_change"
         },
         {
-          "text": "40 minutes or more",
+          "text": "40 min or more",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
@@ -169,7 +169,7 @@
       ]
     },
  {
-      "question": "Has the temperature in your environment changed drastically in the past 5 minutes?",
+      "question": "Any drastic air temperature changes in the past 5 min?",
       "question_id": "q_comfort_change",
       "response_options": [
         {
@@ -181,7 +181,7 @@
           "next_question_id": "q_comfort_sensation"
         },
         {
-          "text": "No, the temperature has generally been the same",
+          "text": "No, it has generally been the same",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
@@ -191,7 +191,7 @@
       ]
     },
     {
-      "question": "How do you currently feel? What is your general thermal sensation?",
+      "question": "How do you currently feel? General thermal sensation is",
       "question_id": "q_comfort_sensation",
       "response_options": [
         {
@@ -237,7 +237,7 @@
       ]
     },
     {
-      "question": "Is your body feeling discomfort or stress because of the heat?",
+      "question": "Is your body feeling discomfort or stress due to the heat?",
       "question_id": "q_comfort_heatstress",
       "response_options": [
         {
@@ -259,7 +259,7 @@
       ]
     },
     {
-      "question": "How would you rate the level of this discomfort or stress?",
+      "question": "Rate the level of this discomfort or stress",
       "question_id": "q_comfort_heatintensity",
       "response_options": [
         {
@@ -297,7 +297,7 @@
       ]
     },
     {
-      "question": "Which of the symptoms is currently affecting you the most?",
+      "question": "Which symptom is currently affecting you the most?",
       "question_id": "q_comfort_heatsymptoms",
       "response_options": [
         {
@@ -349,7 +349,7 @@
           "next_question_id": "q_comfort_behavior"
         },
         {
-          "text": "Heavy Sweating",
+          "text": "Heavy sweating",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
@@ -357,7 +357,7 @@
           "next_question_id": "q_comfort_behavior"
         },
         {
-          "text": "High Body Temperature",
+          "text": "High body temperature",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
@@ -367,7 +367,7 @@
       ]
     },
     {
-      "question": "Are you using anything to adjust yourself to the heat?",
+      "question": "Are you using anything to adjust to the heat?",
       "question_id": "q_comfort_behavior",
       "response_options": [
         {
@@ -425,7 +425,7 @@
       "question_id": "q_comfort_wind",
       "response_options": [
         {
-          "text": "Stale",
+          "text": "No wind",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
@@ -433,7 +433,7 @@
           "next_question_id": "q_comfort_humidity"
         },
         {
-          "text": "Neutral",
+          "text": "Mild wind",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
@@ -441,7 +441,7 @@
           "next_question_id": "q_comfort_humidity"
         },
         {
-          "text": "Windy",
+          "text": "Strong wind",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
@@ -501,7 +501,7 @@
           "next_question_id": "q_comfort_preference"
         },
         {
-          "text": "Neutral",
+          "text": "Moderate",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
