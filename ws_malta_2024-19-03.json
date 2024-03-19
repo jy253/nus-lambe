@@ -1,5 +1,5 @@
 {
-  "survey_name": "Malta - Heat Stress v5",
+  "survey_name": "Malta - Heat Stress v6",
   "survey_id": "Malta_HeatStress",
   "survey": [
     {
@@ -169,7 +169,7 @@
       ]
     },
  {
-      "question": "Any drastic air temperature changes in the past 5 min?",
+      "question": "Any drastic air temperature changes in past 5 min?",
       "question_id": "q_comfort_change",
       "response_options": [
         {
@@ -191,7 +191,7 @@
       ]
     },
     {
-      "question": "How do you currently feel? General thermal sensation is",
+      "question": "How do you currently feel? Thermal sensation is",
       "question_id": "q_comfort_sensation",
       "response_options": [
         {
