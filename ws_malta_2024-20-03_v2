@@ -1,6 +1,6 @@
 {
-  "survey_name": "Malta - Heat Stress v7",
-  "survey_id": "Malta_HeatStress",
+  "survey_name": "Delta - Heat Stress v1",
+  "survey_id": "Delta_HeatStress",
   "survey": [
     {
       "question": "Are you currently indoors or outdoors?",
@@ -12,7 +12,7 @@
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_activity"
+          "next_question_id": "q_general_level_envi"
         },
         {
           "text": "Outdoor",
@@ -20,10 +20,56 @@
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_activity"
+          "next_question_id": "q_general_level_envi"
         },
         {
           "text": "Semi-outdoor",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_general_level_envi"
+        }
+      ]
+    },
+     {
+      "question": "At what floor level are you on?",
+      "question_id": "q_general_level_envi",
+      "response_options": [
+       {
+          "text": "Basement",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_activity"
+        },
+        {
+          "text": "Ground level",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_activity"
+        },
+        {
+          "text": "Between 2-10",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_activity"
+        },
+        {
+          "text": "Between 11-20",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_activity"
+        },
+        {
+          "text": "21 or above",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
@@ -32,7 +78,7 @@
         }
       ]
     },
-    {
+      {
       "question": "What have you been doing in the past 30 min?",
       "question_id": "q_comfort_activity",
       "response_options": [
@@ -79,7 +125,7 @@
       ]
     },
     {
-      "question": "Are you taking public transit?",
+      "question": "Are you at a public transit station or stop?",
       "question_id": "q_general_transit",
       "response_options": [
         {
@@ -88,7 +134,7 @@
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_transit_type"
+          "next_question_id": "q_general_density"
         },
         {
           "text": "No",
@@ -96,46 +142,38 @@
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_change"
+          "next_question_id": "q_general_density"
         }
       ]
     },
     {
-      "question": "What type of public transit are you taking?",
-      "question_id": "q_transit_type",
+      "question": "Is your vicinity crowded?",
+      "question_id": "q_general_density",
       "response_options": [
         {
-          "text": "Bus",
+          "text": "Yes",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_transit_time"
+          "next_question_id": "q_density_num"
         },
         {
-          "text": "Train",
+          "text": "No",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_transit_time"
-        },
-        {
-          "text": "Both",
-          "icon": "",
-          "icon_background_color": "#FFFFFF",
-          "use_sf_symbols": false,
-          "sf_symbols_color": "#000000",
-          "next_question_id": "q_transit_time"
+          "next_question_id": "q_density_num"
         }
       ]
     },
     {
-      "question": "How long do you estimate your travel will take?",
-      "question_id": "q_transit_time",
+      "question": "About how many people are around you?",
+      "question_id": "q_density_num",
       "response_options": [
         {
-          "text": "10 min or less",
+          "text": "0 pax",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
@@ -143,7 +181,7 @@
           "next_question_id": "q_comfort_change"
         },
         {
-          "text": "About 20 min",
+          "text": "1-4 pax",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
@@ -151,7 +189,7 @@
           "next_question_id": "q_comfort_change"
         },
         {
-          "text": "About 30 min",
+          "text": "5-10 pax",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
@@ -159,7 +197,15 @@
           "next_question_id": "q_comfort_change"
         },
         {
-          "text": "40 min or more",
+          "text": "11-20 pax",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_change"
+        },
+        {
+          "text": "21+ pax",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
@@ -232,7 +278,7 @@
           "icon_background_color": "#bb7011",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_wind"
+          "next_question_id": "q_comfort_visual"
         }
       ]
     },
@@ -376,7 +422,7 @@
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_wind"
+          "next_question_id": "q_comfort_visual"
         },
         {
           "text": "Umbrella",
@@ -384,7 +430,7 @@
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_wind"
+          "next_question_id": "q_comfort_visual"
         },
         {
           "text": "Wet Towel",
@@ -392,7 +438,7 @@
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_wind"
+          "next_question_id": "q_comfort_visual"
         },
         {
           "text": "Cold Drink",
@@ -400,7 +446,7 @@
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_wind"
+          "next_question_id": "q_comfort_visual"
         },
         {
           "text": "Sun Protectors",
@@ -408,10 +454,64 @@
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_wind"
+          "next_question_id": "q_comfort_visual"
         },
         {
           "text": "None",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_visual"
+        },
+      ]
+    },
+    {
+      "question": "What do you see most around you?",
+      "question_id": "q_comfort_visual",
+      "response_options": [
+        {
+          "text": "Concrete",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_wind"
+        },
+        {
+          "text": "Greenery",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_wind"
+        },
+        {
+          "text": "Gravel/dirt",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_wind"
+        },
+        {
+          "text": "Vehicles",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_wind"
+        },
+        {
+          "text": "Shops/windows",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_wind"
+        },
+        {
+          "text": "Water",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
@@ -531,7 +631,7 @@
           "next_question_id": "q_comfort_preference"
         },
         {
-          "text": "Naturual elements",
+          "text": "Trees",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
@@ -545,7 +645,23 @@
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
           "next_question_id": "q_comfort_preference"
-        },       
+        },  
+        {
+          "text": "Sun has set",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_preference"
+        },
+        {
+          "text": "It's cloudy",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_preference"
+        },    
         {
           "text": "I'm inside",
           "icon": "",
