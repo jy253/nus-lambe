@@ -300,7 +300,7 @@
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
           "sf_symbols_color": "#000000",
-          "next_question_id": "q_comfort_wind"
+          "next_question_id": "q_comfort_visual"
         }
       ]
     },
@@ -387,7 +387,7 @@
           "next_question_id": "q_comfort_behavior"
         },
         {
-          "text": "Thrist",
+          "text": "Thirst",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
