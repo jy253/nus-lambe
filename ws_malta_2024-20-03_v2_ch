@@ -1,0 +1,820 @@
+{
+  "survey_name": "Delta - Heat Stress v1 ch",
+  "survey_id": "Delta_HeatStress",
+  "survey": [
+    {
+      "question": "你现在是在室内还是室外?",
+      "question_id": "q_general_location_envi",
+      "response_options": [
+        {
+          "text": "室内",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_general_level_envi"
+        },
+        {
+          "text": "室外",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_general_level_envi"
+        },
+        {
+          "text": "半室外",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_general_level_envi"
+        }
+      ]
+    },
+     {
+      "question": "你现在在几楼?",
+      "question_id": "q_general_level_envi",
+      "response_options": [
+       {
+          "text": "地下室",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_activity"
+        },
+        {
+          "text": "楼",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_activity"
+        },
+        {
+          "text": "二到十楼",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_activity"
+        },
+        {
+          "text": "十一到二十楼",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_activity"
+        },
+        {
+          "text": "二十一楼或以上",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_activity"
+        }
+      ]
+    },
+      {
+      "question": "过去的30分钟你在做什么?",
+      "question_id": "q_comfort_activity",
+      "response_options": [
+        {
+          "text": "坐着",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_general_transit"
+        },
+        {
+          "text": "走路",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_general_transit"
+        },
+        {
+          "text": "站立",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_general_transit"
+        },
+        {
+          "text": "锻炼/运动",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_general_transit"
+        },
+        {
+          "text": "体力劳动",
+          "icon": "",
+          "icon_background_color": "#bb7011",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_general_transit"
+        }
+      ]
+    },
+    {
+      "question": "你现在在公共交通站点吗?",
+      "question_id": "q_general_transit",
+      "response_options": [
+        {
+          "text": "是",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_general_density"
+        },
+        {
+          "text": "否",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_general_density"
+        }
+      ]
+    },
+    {
+      "question": "你周围人多吗?",
+      "question_id": "q_general_density",
+      "response_options": [
+        {
+          "text": "是",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_density_num"
+        },
+        {
+          "text": "否",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_density_num"
+        }
+      ]
+    },
+    {
+      "question": "About how many people are around you?",
+      "question_id": "q_density_num",
+      "response_options": [
+        {
+          "text": "没有人",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_change"
+        },
+        {
+          "text": "1–4人",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_change"
+        },
+        {
+          "text": "5–10人",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_change"
+        },
+        {
+          "text": "11–20人",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_change"
+        },
+        {
+          "text": "21人或以上",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_change"
+        }
+      ]
+    },
+ {
+      "question": "过去5分钟空气温度有明显变化吗?",
+      "question_id": "q_comfort_change",
+      "response_options": [
+        {
+          "text": "有",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_sensation"
+        },
+        {
+          "text": "没有，温度基本没变化",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_sensation"
+        }
+      ]
+    },
+    {
+      "question": "你现在感觉如何？体感是…",
+      "question_id": "q_comfort_sensation",
+      "response_options": [
+        {
+          "text": "很热",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_heatstress"
+        },
+        {
+          "text": "温暖",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_heatstress"
+        },
+        {
+          "text": "稍微有点热",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_heatstress"
+        },
+        {
+          "text": "中性/不冷不热",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_heatstress"
+        },
+        {
+          "text": "稍微有点凉",
+          "icon": "",
+          "icon_background_color": "#bb7011",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_visual"
+        }
+      ]
+    },
+    {
+      "question": "你因炎热而感到身体不适或压力吗?",
+      "question_id": "q_comfort_heatstress",
+      "response_options": [
+        {
+          "text": "是",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_heatintensity"
+        },
+        {
+          "text": "是",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_visual"
+        }
+      ]
+    },
+    {
+      "question": "你会如何评估这种不适或压力的程度",
+      "question_id": "q_comfort_heatintensity",
+      "response_options": [
+        {
+          "text": "轻微",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_heatsymptoms"
+        },
+        {
+          "text": "中等",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_heatsymptoms"
+        },
+        {
+          "text": "强烈",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_heatsymptoms"
+        },
+        {
+          "text": "非常强烈",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_heatsymptoms"
+        }
+      ]
+    },
+    {
+      "question": "哪种症状现在对你影响最大?",
+      "question_id": "q_comfort_heatsymptoms",
+      "response_options": [
+        {
+          "text": "头痛",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_behavior"
+        },
+        {
+          "text": "恶心",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_behavior"
+        },
+        {
+          "text": "头晕",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_behavior"
+        },
+        {
+          "text": "乏力/无力",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_behavior"
+        },
+        {
+          "text": "易怒",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_behavior"
+        },
+        {
+          "text": "口渴",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_behavior"
+        },
+        {
+          "text": "大量出汗",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_behavior"
+        },
+        {
+          "text": "体温过高",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_behavior"
+        },
+      ]
+    },
+    {
+      "question": "你正在使用什么方法来应对炎热吗?",
+      "question_id": "q_comfort_behavior",
+      "response_options": [
+        {
+          "text": "电风扇",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_visual"
+        },
+        {
+          "text": "雨伞/阳伞",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_visual"
+        },
+        {
+          "text": "湿毛巾",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_visual"
+        },
+        {
+          "text": "冷饮",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_visual"
+        },
+        {
+          "text": "防晒用品",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_visual"
+        },
+        {
+          "text": "没有",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_visual"
+        },
+      ]
+    },
+    {
+      "question": "你周围看到最多的是什么?",
+      "question_id": "q_comfort_visual",
+      "response_options": [
+        {
+          "text": "水泥/混凝土",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_wind"
+        },
+        {
+          "text": "绿植",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_wind"
+        },
+        {
+          "text": "碎石/泥土",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_wind"
+        },
+        {
+          "text": "车辆",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_wind"
+        },
+        {
+          "text": "商店/橱窗",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_wind"
+        },
+        {
+          "text": " 水体",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_wind"
+        },
+        {
+          "text": "我在室内",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_wind"
+        }
+      ]
+    },
+    {
+      "question": "你现在对自然风的感觉如何?",
+      "question_id": "q_comfort_wind",
+      "response_options": [
+        {
+          "text": "没有风",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_humidity"
+        },
+        {
+          "text": "微风",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_humidity"
+        },
+        {
+          "text": "大风",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_humidity"
+        }
+      ]
+    },
+    {
+      "question": "你现在对空气湿度的感觉如何?",
+      "question_id": "q_comfort_humidity",
+      "response_options": [
+        {
+          "text": "潮湿",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_sun"
+        },
+        {
+          "text": "中性",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_sun"
+        },
+        {
+          "text": "干燥",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_sun"
+        }
+      ]
+    },
+    {
+      "question": "你现在对太阳的感觉如何?",
+      "question_id": "q_comfort_sun",
+      "response_options": [
+        {
+          "text": "没有暴露在阳光下",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_environment_shade"
+        },
+        {
+          "text": "微弱",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_preference"
+        },
+        {
+          "text": "中等",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_preference"
+        },
+        {
+          "text": "强烈",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_preference"
+        }
+      ]
+    },
+    {
+      "question": "你是被什么遮挡住阳光的?",
+      "question_id": "q_environment_shade",
+      "response_options": [
+        {
+          "text": "建筑物",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_preference"
+        },
+        {
+          "text": "树木",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_preference"
+        },
+        {
+          "text": "遮阳棚/遮阳设施",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_preference"
+        },  
+        {
+          "text": "太阳已下山",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_preference"
+        },
+        {
+          "text": "多云",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_preference"
+        },    
+        {
+          "text": "我在室内",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_comfort_preference"
+        }
+      ]
+    },
+    {
+      "question": "你希望你的环境如何改变?",
+      "question_id": "q_comfort_preference",
+      "response_options": [
+        {
+          "text": "更凉爽",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_clothing_insulation"
+        },
+        {
+          "text": "不需要改变",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_clothing_insulation"
+        },
+        {
+          "text": "更温暖",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_clothing_insulation"
+        }
+      ]
+    },
+    {
+      "question": "请描述你整体的衣物保暖程度",
+      "question_id": "q_clothing_insulation",
+      "response_options": [
+        {
+          "text": "很轻薄",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_clothing_cover"
+        },
+        {
+          "text": "轻薄",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_clothing_cover"
+        },
+        {
+          "text": "中等",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_clothing_cover"
+        },
+        {
+          "text": "厚重",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_clothing_cover"
+        }
+      ]
+    },
+    {
+      "question": "你的衣物覆盖皮肤的程度是多少?",
+      "question_id": "q_clothing_cover",
+      "response_options": [
+        {
+          "text": "覆盖不多",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_clothing_color"
+        },
+        {
+          "text": "大约25%–50%",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_clothing_color"
+        },
+        {
+          "text": "大约51%–75%",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_clothing_color"
+        },
+        {
+          "text": "几乎全部覆盖",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": "q_clothing_color"
+        }
+      ]
+    },
+    {
+      "question": "你整体的衣物颜色是什么?",
+      "question_id": "q_clothing_color",
+      "response_options": [
+        {
+          "text": "深色",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "浅色",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        },
+        {
+          "text": "浅色和深色差不多",
+          "icon": "",
+          "icon_background_color": "#FFFFFF",
+          "use_sf_symbols": false,
+          "sf_symbols_color": "#000000",
+          "next_question_id": ""
+        }
+      ]
+    }
+  ]
+}
