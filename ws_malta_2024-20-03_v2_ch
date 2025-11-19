@@ -169,7 +169,7 @@
       ]
     },
     {
-      "question": "About how many people are around you?",
+      "question": "你周围大约有多少人?",
       "question_id": "q_density_num",
       "response_options": [
         {
