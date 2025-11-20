@@ -295,7 +295,7 @@
           "next_question_id": "q_comfort_heatintensity"
         },
         {
-          "text": "是",
+          "text": "否",
           "icon": "",
           "icon_background_color": "#FFFFFF",
           "use_sf_symbols": false,
